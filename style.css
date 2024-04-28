@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.container {
+    /* border: 2px solid red; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-image>img {
+    border-radius: 50%;
+}
+
+.username h2,
+h5 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+  
+}
+
+.username h5 {
+    color: green;
+    margin: 10px 0px;
+}
+
+.social-media-links ul {
+    list-style: none;
+}
+
+.social-media-links li {
+    margin-top: 10px;
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding: 10px 60px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.social-media-links li:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
+
+.user-about p {
+    margin: 10px 0px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
